@@ -1,4 +1,4 @@
-# Explor
+# Explor [ɪkˈsplɔː]
 
 ## Project Description
 
