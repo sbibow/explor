@@ -1,4 +1,4 @@
-# Trip Planner
+# Explor
 
 ## Project Description
 
