@@ -28,12 +28,25 @@ Most probably I will use the [Google Maps Places
 API](https://developers.google.com/places/web-service/intro). If it turns out to
 be difficult, I might change it to some other places API.
 
+Alternative might include yelp or foursquare in conjunction with TravelTime
+Search API.
+*thanks to [CJ R.](https://github.com/w3cj) for the suggestion*
+
 ## Tech Stack
 
 I will use the CSS framework [Bulma](https://bulma.io/) to create the layout of
-the site.
+the site. In later stages it might be required to add a build process to the
+website to customize Bulma with SASS.
+
+If Bulma proves too restrictive to use. I will revert to writing my own CSS with
+flexbox and other modern CSS features. If I do write it myself it might not work
+on older browsers and thus limit the user reach as users with these old browsers
+will have a suboptimal experience.
 
 It is currently not planned to use any third-party JS library.
+
+It is planned to persist the user's data in localStorage. The format is not yet
+decided but will probably take the form of a serialized JSON object/array.
 
 ## What will be your process?
 
